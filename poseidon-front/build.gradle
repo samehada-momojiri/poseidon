@@ -1,0 +1,7 @@
+springBoot {
+	mainClass = 'com.xloud.poseidon.front.PoseidonFrontApplication'
+}
+
+dependencies {
+	implementation project(':poseidon-core')
+}

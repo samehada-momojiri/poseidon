@@ -1,0 +1,9 @@
+server:
+  servlet:
+    context-path: /poseidon-front
+  port:
+    8010
+spring:
+  application:
+    name: pegasus-front
+  profiles: web
