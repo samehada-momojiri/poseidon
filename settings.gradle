@@ -1,0 +1,2 @@
+rootProject.name = 'poseidon-multi-module'
+include 'poseidon-core', 'poseidon-appbase', 'poseidon-front', 'poseidon-service'

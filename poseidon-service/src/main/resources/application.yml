@@ -1,0 +1,12 @@
+server:
+  servlet:
+    context-path: /poseidon-service
+  port:
+    8020
+spring:
+  application:
+    name: pegasus-service
+  config:
+    activate:
+      on-profile:
+      - web

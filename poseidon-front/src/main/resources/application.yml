@@ -1,0 +1,15 @@
+server:
+  servlet:
+    context-path: /poseidon-front
+  port:
+    8010
+spring:
+  application:
+    name: pegasus-front
+  config:
+    activate:      on-profile:      - web
+  devtools:
+    livereload:
+      enabled: true
+    restart:
+      enabled: true
