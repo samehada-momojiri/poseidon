@@ -6,4 +6,7 @@ server:
 spring:
   application:
     name: pegasus-service
-  profiles: web
+  config:
+    activate:
+      on-profile:
+      - web

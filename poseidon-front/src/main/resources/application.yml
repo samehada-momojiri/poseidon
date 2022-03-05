@@ -6,4 +6,10 @@ server:
 spring:
   application:
     name: pegasus-front
-  profiles: web
+  config:
+    activate:      on-profile:      - web
+  devtools:
+    livereload:
+      enabled: true
+    restart:
+      enabled: true
